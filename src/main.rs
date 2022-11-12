@@ -30,4 +30,7 @@ fn main() {
     let as_string = String::from_utf8(cert).unwrap();
 
     println!("certificate: \n {}", as_string);
+
+    // it doesn't work, use this tutorial to manually create self signed certificate
+    // https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-in-ubuntu-16-04
 }
